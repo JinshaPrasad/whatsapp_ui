@@ -18,14 +18,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(Icons.camera_alt),
-        backgroundColor: Colors.green,
-        foregroundColor: Colors.white,
-        title: Text("WhatsApp"),
-        centerTitle: true,
-        actions: [Icon(Icons.qr_code_scanner), Icon(Icons.more_vert)],
-      ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.chat),
